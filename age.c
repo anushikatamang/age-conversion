@@ -1,6 +1,8 @@
+
 #include <stdio.h>
 #include<conio.h>
-int main() {
+int main()  
+{
     int age;
     double days, hours, minutes;
 
@@ -15,6 +17,7 @@ int main() {
     printf("%.0f days\n", days);
     printf("%.0f hours\n", hours);
     printf("%.0f minutes\n", minutes);
+    
     return 0;
     getch();
 }
