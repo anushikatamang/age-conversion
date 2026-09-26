@@ -9,7 +9,7 @@ int main()
     printf("Enter your age in years: ");
     scanf("%d", &age);
 
-    days = age * 365.25;
+    days = age * 365;
     hours = days * 24;
     minutes = hours * 60;
 
